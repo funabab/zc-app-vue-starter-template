@@ -31,6 +31,10 @@ To build, your simply build it like any Vue CLI generated project by running
 
 Make sure you've already set the `pluginDomain` in the **package.json** file to match your plugin domain name
 
+## Building for Another Domain
+
+To build plugin for another domain, change `pluginDomain` in the **package.json** to `pluginTestingDomain` and set it the alternate domain then build.
+
 ### Project setup
 
 ```
